@@ -16,7 +16,7 @@ var app = express();
 mongoose.connect(
   "mongodb+srv://tanraj:Tangradetwo@cluster0.y5s6z.mongodb.net/CPSC455?retryWrites=true&w=majority"
 );
-generateData();
+// generateData();
 
 app.use(logger("dev"));
 app.use(cors());
