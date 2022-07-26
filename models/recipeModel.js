@@ -6,6 +6,7 @@ const recipeSchema = new mongoose.Schema({
   name: String,
   ingredients: String,
   instructions: String,
+  time: String,
 });
 
 // create model
